@@ -1,0 +1,8 @@
+# Secrets — never commit
+analysis/credentials.txt
+**/credentials*.txt
+*.env
+.env*
+
+# OS
+.DS_Store

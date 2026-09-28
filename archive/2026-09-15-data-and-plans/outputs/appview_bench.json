@@ -1,0 +1,112 @@
+{
+  "appview": "https://public.api.bsky.app/xrpc",
+  "params": {
+    "handles": [
+      "bsky.app",
+      "jay.bsky.team",
+      "pfrazee.com"
+    ],
+    "graph_pages": 3,
+    "feed": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.generator/whats-hot",
+    "seed_posts": 40,
+    "keyword": null,
+    "like_pages": 2,
+    "pace": 0.05,
+    "out": "../outputs/appview_bench.json"
+  },
+  "seeds": {
+    "timing": {
+      "calls": 3,
+      "total_s": 2.373,
+      "median_s": 0.769,
+      "min_s": 0.695,
+      "max_s": 0.908
+    },
+    "seeds": {
+      "bsky.app": {
+        "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+        "followers": 34908766,
+        "follows": 15,
+        "posts": 863,
+        "status": 200
+      },
+      "jay.bsky.team": {
+        "did": "did:plc:oky5czdrnfjpqslsw2a5iclo",
+        "followers": 594599,
+        "follows": 3982,
+        "posts": 4162,
+        "status": 200
+      },
+      "pfrazee.com": {
+        "did": "did:plc:ragtjsm2j2vknwkz3zp4oxrd",
+        "followers": 309156,
+        "follows": 704,
+        "posts": 39779,
+        "status": 200
+      }
+    }
+  },
+  "follower_graph": {
+    "getFollows": {
+      "timing": {
+        "calls": 1,
+        "total_s": 0.797,
+        "median_s": 0.797,
+        "min_s": 0.797,
+        "max_s": 0.797
+      },
+      "edges": 15,
+      "pages": 1,
+      "edges_per_s": 18.8
+    },
+    "getFollowers": {
+      "timing": {
+        "calls": 3,
+        "total_s": 2.918,
+        "median_s": 0.998,
+        "min_s": 0.884,
+        "max_s": 1.036
+      },
+      "edges": 288,
+      "pages": 3,
+      "edges_per_s": 98.7
+    }
+  },
+  "seed_posts": {
+    "timing": {
+      "calls": 1,
+      "total_s": 1.266,
+      "median_s": 1.266,
+      "min_s": 1.266,
+      "max_s": 1.266
+    },
+    "n_posts": 40,
+    "keyword": null
+  },
+  "reply_networks": {
+    "timing": {
+      "calls": 37,
+      "total_s": 28.704,
+      "median_s": 0.748,
+      "min_s": 0.525,
+      "max_s": 1.189
+    },
+    "threads_fetched": 37,
+    "reply_edges": 1271,
+    "reply_nodes": 1017,
+    "mention_edges": 0
+  },
+  "like_edges": {
+    "timing": {
+      "calls": 10,
+      "total_s": 8.985,
+      "median_s": 0.881,
+      "min_s": 0.853,
+      "max_s": 0.971
+    },
+    "posts_sampled": 5,
+    "like_edges": 1000,
+    "likes_per_s": 111.3
+  },
+  "wall_clock_s": 47.99
+}

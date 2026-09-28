@@ -1,0 +1,21 @@
+{
+  "elapsed_s": 25.17,
+  "events": 7016,
+  "events_per_s": 278.8,
+  "by_collection": {
+    "app.bsky.feed.like": 5235,
+    "app.bsky.feed.post": 968,
+    "app.bsky.feed.repost": 813
+  },
+  "posts": 968,
+  "reply_edges_in_window": 387,
+  "keyword": "climate",
+  "keyword_post_hits": 2,
+  "keyword_hit_rate": 0.00207,
+  "params": {
+    "seconds": 25.0,
+    "max_events": 60000,
+    "keyword": "climate",
+    "out": "../outputs/jetstream_bench.json"
+  }
+}

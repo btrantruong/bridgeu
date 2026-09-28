@@ -1,0 +1,47 @@
+{
+  "health": {
+    "ok": true,
+    "status": 200,
+    "s": 0.255
+  },
+  "describe": {
+    "ok": true,
+    "status": 200,
+    "s": 0.204
+  },
+  "search:climate": {
+    "ok": true,
+    "status": 200,
+    "s": 0.499
+  },
+  "search:immigration": {
+    "ok": true,
+    "status": 200,
+    "s": 0.361
+  },
+  "search:election": {
+    "ok": true,
+    "status": 200,
+    "s": 0.444
+  },
+  "generators": {
+    "ok": true,
+    "status": 200,
+    "s": 0.234
+  },
+  "models": {
+    "ok": true,
+    "status": 200,
+    "s": 0.289
+  },
+  "feeds": {
+    "ok": false,
+    "status": 401,
+    "s": 0.196
+  },
+  "generate": {
+    "ok": false,
+    "status": 422,
+    "s": 0.236
+  }
+}
